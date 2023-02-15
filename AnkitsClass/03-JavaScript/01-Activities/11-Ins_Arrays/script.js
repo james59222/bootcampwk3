@@ -20,7 +20,7 @@ console.log(names[0]);
 console.log(names[3]);
 
 //Replaces "Olivia" with "Carter"
-names[3] = "Carter"; 
+names[names.length -1] = "Carter"; 
 
 // Logs "Carter"
 console.log(names[3]);
